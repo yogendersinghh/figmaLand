@@ -1,0 +1,43 @@
+.figmaland__status {
+  position: relative;
+  max-width: 100vw;
+  height: 100vh;
+}
+.image {
+  width: 20%;
+  height: 30%;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+}
+.figmaland__status-One {
+  position: absolute;
+  top: 120px;
+  left: 500px;
+  transform: matrix(0.71, -0.54, 0.93, 0.71, 0, 0);
+}
+.figmaland__status-Two {
+  position: absolute;
+  top: 250px;
+  /* left: 320px; */
+  right: 330px;
+  transform: matrix(0.71, 0.54, -0.93, 0.71, 0, 0);
+}
+.figmaland__status-Three {
+  position: absolute;
+  top: 260px;
+  left: 330px;
+  transform: matrix(0.71, 0.54, -0.93, 0.71, 0, 0);
+}
+.figmaland__status-gradient {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 40vh;
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    #0e0e0e 66.15%
+  );
+}

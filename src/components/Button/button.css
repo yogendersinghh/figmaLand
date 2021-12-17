@@ -1,0 +1,23 @@
+button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px 46px;
+  background: black;
+  color: white;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  /* font-family: Graphik; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+
+  /* identical to box height, or 147% */
+  letter-spacing: 0.2px;
+
+  /* light background */
+  color: #ffffff;
+  /* shadow */
+  filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+}

@@ -1,0 +1,14 @@
+.figmaland__navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.figmaland__navbar-links {
+  /* margin-left: -4rem; */
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+  /* background: chartreuse; */
+  color: white;
+}
