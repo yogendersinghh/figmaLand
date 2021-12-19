@@ -17,32 +17,33 @@ const Navabr = () => {
 
   return (
     <div className="figmaland__navbar">
-      <div>
+      <div className="figmaland__navbar-logo">
         <img src={logo} alt="" />
       </div>
       <div className="figmaland__navbar-links">
         <Menu />
       </div>
-      <div>
+      <div className="figmaland__navbar-button">
         <Button content="Login" />
+        <div className="figmaland__navbar-menu">
+          {toggleButton ? (
+            <RiCloseLine
+              size={22}
+              onClick={() => {
+                settoggleButton(false);
+              }}
+            />
+          ) : (
+            <RiMenu3Line
+              size={22}
+              onClick={() => {
+                settoggleButton(true);
+              }}
+            />
+          )}
+        </div>
       </div>
-      <div className="figmaland__navbar-menu">
-        {toggleButton ? (
-          <RiCloseLine
-            size={22}
-            onClick={() => {
-              settoggleButton(false);
-            }}
-          />
-        ) : (
-          <RiMenu3Line
-            size={22}
-            onClick={() => {
-              settoggleButton(true);
-            }}
-          />
-        )}
-      </div>
+
       <div>
         {toggleButton && (
           <div className="figmaland__navbar-menu__show">

@@ -2,7 +2,7 @@ button {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 15px 46px;
+  padding: 0.5rem 2rem;
   background: black;
   color: white;
   border: 1px solid #ffffff;

@@ -45,7 +45,7 @@
 .figmaland__content-bottom {
   min-height: 70vh;
   max-height: 70vh;
-  width: 80%;
+  width: 60%;
   /* background-color: cyan; */
   display: flex;
   justify-content: space-evenly;
@@ -57,9 +57,9 @@
   max-height: 70vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
-  width: 35%;
+  width: 40%;
   /* border-radius: 5%;
    */
   background: #ffffff;
@@ -71,7 +71,7 @@
   border-radius: 10px;
 }
 .figmaland__content-bottom__card-heading {
-  font-family: Graphik;
+  /* font-family: Graphik; */
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
@@ -85,6 +85,7 @@
   color: #000000;
 }
 .figmaland__content-bottom__card-content {
+  width: 70%;
   font-family: Graphik;
   font-style: normal;
   font-weight: normal;
@@ -99,8 +100,11 @@
   color: #5c5c5c;
 }
 .figmaland__content-bottom__card-button {
-  /* width: 70%; */
-  /* height: 10%; */
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* height: 0%; */
 }
 .figmaland__content-bottom__card-image {
   width: 70%;
