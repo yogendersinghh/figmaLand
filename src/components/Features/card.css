@@ -45,3 +45,13 @@
   /* light text */
   color: #ffffff;
 }
+
+@media screen and (max-width: 450px) {
+  .figmaland__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* background-color: bisque; */
+    height: 12vh;
+  }
+}
