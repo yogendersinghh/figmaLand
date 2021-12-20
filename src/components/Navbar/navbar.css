@@ -1,6 +1,6 @@
 .figmaland__navbar {
-  overflow-x: hidden;
-
+  /* overflow-y: hidden; */
+  /* height: 20vh; */
   display: flex;
   width: 100vw;
   justify-content: space-evenly;
@@ -30,12 +30,13 @@
     overflow-x: hidden;
     position: relative;
     width: 100vw;
+    /* max-height: 10vh; */
     display: flex;
     justify-content: space-between;
-    padding-left: -4rem;
+    padding-left: 0rem;
   }
   .figmaland__navbar-logo {
-    width: 30%;
+    /* width: 30vw; */
   }
   .figmaland__navbar-log img {
     width: 100%;
@@ -50,9 +51,12 @@
   .figmaland__navbar-menu__show {
     color: white;
     background-color: aqua;
+    width: 20vw;
     position: absolute;
-    top: 90%;
+
+    top: 40%;
     right: 15%;
+    /* z-index: 2; */
   }
   .figmaland__navbar-links {
     display: none;

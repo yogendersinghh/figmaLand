@@ -1,5 +1,7 @@
 .figmaland__content-main {
   /* text-align: center; */
+  /* position: relative; */
+  /* z-index: -1; */
   display: flex;
   width: 100vw;
   height: 70vh;
@@ -46,6 +48,8 @@
     display: flex;
     justify-content: space-evenly;
     height: 50vh;
+    /* position: absolute; */
+    /* z-index: 1; */
   }
   .figmaland__content-heading {
     font-family: Graphik;
@@ -54,6 +58,7 @@
     font-size: 40px;
     line-height: 38px;
     width: 50vw;
+    /* position: absolute; */
     /* or 110% */
     text-align: center;
     letter-spacing: 0.2px;
@@ -68,6 +73,7 @@
     font-weight: normal;
     font-size: 20px;
     line-height: 25px;
+    /* position: absolute; */
 
     /* or 150% */
     text-align: center;

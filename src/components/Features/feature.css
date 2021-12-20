@@ -85,3 +85,33 @@
   top: 220px;
   left: 210px;
 }
+
+@media screen and (max-width: 450px) {
+  .figmaland__feature {
+    /* margin-top: 0% auto; */
+    /* padding: 0% auto; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100vw;
+    height: 100vh;
+    background-color: chocolate;
+  }
+  .figmaland__feature-top {
+    padding-top: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 20vh;
+    background-color: chartreuse;
+  }
+  .figmaland__feature-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
