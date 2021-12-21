@@ -15,10 +15,6 @@ const App = () => {
         <Features />
         <Content />
       </div>
-      {/* <div style={{ background: "#181818" }}>
-        <Features />
-        <Content />
-      </div> */}
     </>
   );
 };

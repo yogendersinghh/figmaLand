@@ -1,5 +1,4 @@
 .figmaland__content {
-  /* max-height: 100vh; */
   min-height: 100vh;
   width: 100vw;
   display: flex;
@@ -33,8 +32,6 @@
   color: #ffffff;
 }
 .figmaland__content-bottom {
-  /* min-height: 70vh; */
-  /* max-height: 70vh; */
   width: 60%;
   display: flex;
   justify-content: space-evenly;
