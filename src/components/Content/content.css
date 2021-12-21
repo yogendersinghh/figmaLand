@@ -1,5 +1,5 @@
 .figmaland__content {
-  max-height: 100vh;
+  /* max-height: 100vh; */
   min-height: 100vh;
   width: 100vw;
   display: flex;
@@ -33,8 +33,8 @@
   color: #ffffff;
 }
 .figmaland__content-bottom {
-  min-height: 70vh;
-  max-height: 70vh;
+  /* min-height: 70vh; */
+  /* max-height: 70vh; */
   width: 60%;
   display: flex;
   justify-content: space-evenly;
@@ -95,17 +95,18 @@
     text-align: center;
   }
   .figmaland__content-bottom {
-    min-height: 70vh;
-    max-height: 70vh;
+    min-height: 100vh;
+    /* max-height: 70vh; */
     width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    gap: 2rem;
   }
   .figmaland__content-bottom__card {
-    min-height: 32vh;
-    max-height: 32vh;
+    /* max-height: 32vh; */
+    min-height: 45vmax;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

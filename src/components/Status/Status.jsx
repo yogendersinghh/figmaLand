@@ -8,15 +8,11 @@ const Status = () => {
   return (
     <div className="figmaland__status">
       <div className="figmaland__status-One image">
-        <img src={image1} alt="" />
+        <div className="figmaland__status-Two image"></div>
+        <div className="figmaland__status-Three image"></div>
       </div>
-      <div className="figmaland__status-Two image">
-        <img src={image2} alt="" />
-      </div>
-      <div className="figmaland__status-Three image">
-        <img src={image3} alt="" />
-      </div>
-      <div className="figmaland__status-gradient"></div>
+
+      {/* <div className="figmaland__status-gradient"></div> */}
     </div>
   );
 };
