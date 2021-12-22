@@ -15,8 +15,8 @@
   font-family: Graphik;
   font-style: normal;
   font-weight: 500;
-  font-size: 80px;
-  line-height: 88px;
+  font-size: 5rem;
+  line-height: 5rem;
   width: 50vw;
   /* or 110% */
   text-align: center;
@@ -30,8 +30,8 @@
   font-family: Graphik;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 1.5rem;
+  /* line-height: 1.5rem; */
 
   /* or 150% */
   text-align: center;
@@ -55,9 +55,9 @@
     font-family: Graphik;
     font-style: normal;
     font-weight: 500;
-    font-size: 40px;
-    line-height: 38px;
-    width: 50vw;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    width: 100vw;
     /* position: absolute; */
     /* or 110% */
     text-align: center;
@@ -71,8 +71,8 @@
     font-family: Graphik;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 1rem;
+    line-height: 1.5rem;
     /* position: absolute; */
 
     /* or 150% */
@@ -81,7 +81,7 @@
   }
   .figmaland__content-button {
     /* background-color: aqua; */
-    width: 40vw;
+    width: 100vw;
     height: 15vh;
     display: flex;
     flex-direction: column;

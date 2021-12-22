@@ -44,7 +44,7 @@ const Navabr = () => {
         </div>
       </div>
 
-      <div>
+      <div className="trying">
         {toggleButton && (
           <div className="figmaland__navbar-menu__show">
             <Menu />

@@ -42,7 +42,7 @@ const Features = () => {
         </div>
         <div className="figmaland__feature-bottom">
           <div className="figmaland__feature-bottom__image">
-            <img src={image} alt="" />
+            {/* <img src={image} alt="" /> */}
             <div>
               <img src={chart} alt="" />
             </div>

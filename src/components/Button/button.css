@@ -10,8 +10,8 @@ button {
   /* font-family: Graphik; */
   font-style: normal;
   font-weight: 500;
-  font-size: 17px;
-  line-height: 25px;
+  font-size: 1rem;
+  line-height: 1.5rem;
 
   /* identical to box height, or 147% */
   letter-spacing: 0.2px;
@@ -34,8 +34,8 @@ button {
     /* font-family: Graphik; */
     font-style: normal;
     font-weight: 500;
-    font-size: 17px;
-    line-height: 25px;
+    font-size: 0.2rem;
+    line-height: 1rem;
 
     /* identical to box height, or 147% */
     letter-spacing: 0.2px;
