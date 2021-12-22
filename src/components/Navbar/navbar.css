@@ -74,3 +74,41 @@
     display: none;
   }
 }
+@media screen and (max-width: 900px) and (min-width: 451px) {
+  .figmaland__navbar {
+    /* background-color: chartreuse; */
+    overflow-x: hidden;
+    position: relative;
+    /* width: 100vw; */
+    /* max-height: 10vh; */
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 0rem;
+  }
+  .figmaland__navbar-logo {
+    /* background-color: cornflowerblue; */
+    /* width: 30vw; */
+    width: 45vmin;
+  }
+  .figmaland__navbar-button {
+    /* width: auto; */
+    width: 25vmin;
+    /* background-color: chocolate; */
+  }
+  .figmaland__navbar-menu {
+    display: block;
+  }
+  .figmaland__navbar-menu__show {
+    color: white;
+    background-color: aqua;
+    width: 20vw;
+    position: absolute;
+
+    top: 40%;
+    right: 15%;
+    /* z-index: 2; */
+  }
+  .figmaland__navbar-links {
+    display: none;
+  }
+}

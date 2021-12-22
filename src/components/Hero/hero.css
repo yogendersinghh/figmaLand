@@ -89,3 +89,49 @@
     align-items: center;
   }
 }
+@media screen and (max-width: 900px) and (min-width: 451px) {
+  .figmaland__content-main {
+    display: flex;
+    justify-content: space-evenly;
+    height: 50vh;
+    /* position: absolute; */
+    /* z-index: 1; */
+  }
+  .figmaland__content-heading {
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 4rem;
+    width: 100vw;
+    /* position: absolute; */
+    /* or 110% */
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    /* light text */
+    color: #ffffff;
+  }
+  .figmaland__content-content {
+    width: 80vw;
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    /* position: absolute; */
+
+    /* or 150% */
+    text-align: center;
+    letter-spacing: 0.2px;
+  }
+  .figmaland__content-button {
+    /* background-color: aqua; */
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
