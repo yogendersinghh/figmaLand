@@ -4,7 +4,7 @@
   /* z-index: -1; */
   display: flex;
   width: 100vw;
-  height: 70vh;
+  height: 400px;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
@@ -43,7 +43,7 @@
   justify-content: space-evenly;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
   .figmaland__content-main {
     display: flex;
     justify-content: space-evenly;
@@ -89,7 +89,7 @@
     align-items: center;
   }
 }
-@media screen and (max-width: 900px) and (min-width: 451px) {
+@media screen and (max-width: 1200px) and (min-width: 601px) {
   .figmaland__content-main {
     display: flex;
     justify-content: space-evenly;

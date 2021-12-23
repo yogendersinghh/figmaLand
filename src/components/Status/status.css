@@ -1,43 +1,64 @@
 .figmaland__status {
   position: relative;
+  /* display: flex;
+  justify-content: left;
+  background-color: chartreuse; */
   max-width: 100vw;
-  height: 100vh;
+  height: 600px;
 }
 .image {
   height: 45vmin;
   width: 55vmin;
 }
 .figmaland__status-One {
+  /* background-color: chartreuse; */
   position: relative;
   background: url("../../Assests/Dashboard.png");
 
   background-size: 100%;
   transform: matrix(0.71, -0.54, 0.93, 0.71, 0, 0);
   top: 10%;
-  left: 37%;
+  left: 38%;
 }
 .figmaland__status-Two {
   position: absolute;
   background: url("../../Assests/ChatBot.png");
   background-size: 100%;
   top: 0%;
-  right: 110%;
+  right: 105%;
 }
 .figmaland__status-Three {
   position: absolute;
   background: url("../../Assests/Boards.png");
   background-size: 100%;
-  top: 110%;
+  top: 108%;
 }
-@media (width < 1066px) {
+@media screen and (max-width: 600px) {
   .image {
     height: 25vmin;
     width: 35vmin;
   }
   .figmaland__status {
-    height: 30vh;
+    height: 40vh;
+    /* width: 100vw; */
   }
   .figmaland__status-One {
     left: 34%;
+  }
+}
+@media screen and (max-width: 1200px) and (min-width: 601px) {
+  .image {
+    height: 20vmin;
+    width: 30vmin;
+  }
+  .figmaland__status {
+    height: 50vh;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* width: 100vw; */
+  }
+  .figmaland__status-One {
+    left: 38%;
   }
 }

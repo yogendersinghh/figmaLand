@@ -1,6 +1,6 @@
 .figmaland__navbar {
   /* overflow-y: hidden; */
-  /* height: 20vh; */
+  height: 100px;
   display: flex;
   width: 100vw;
   justify-content: space-evenly;
@@ -16,8 +16,8 @@
   color: white;
 }
 .figmaland__navbar-logo {
-  width: 30vmin;
-  height: 15vmin;
+  width: 200px;
+  height: 100px;
   /* background-color: chartreuse; */
 }
 .figmaland__navbar-logo img {
@@ -25,9 +25,9 @@
   height: 100%;
 }
 .figmaland__navbar-links {
-  margin-left: -4rem;
+  /* margin-left: -4rem; */
   display: flex;
-  width: 60vmin;
+  width: 300px;
   justify-content: space-between;
   color: white;
   /* background-color: chartreuse; */
@@ -36,7 +36,7 @@
   display: none;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
   .figmaland__navbar {
     /* background-color: chartreuse; */
     overflow-x: hidden;
@@ -74,7 +74,37 @@
     display: none;
   }
 }
-@media screen and (max-width: 900px) and (min-width: 451px) {
+/* @media screen and (max-width: 600px) and (min-width: 491px) {
+  .figmaland__navbar {
+    overflow-x: hidden;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 0rem;
+  }
+  .figmaland__navbar-logo {
+    width: 45vmin;
+  }
+  .figmaland__navbar-button {
+    width: 40vmin;
+  }
+  .figmaland__navbar-menu {
+    display: block;
+  }
+  .figmaland__navbar-menu__show {
+    color: white;
+    background-color: aqua;
+    width: 20vw;
+    position: absolute;
+
+    top: 40%;
+    right: 15%;
+  }
+  .figmaland__navbar-links {
+    display: none;
+  }
+} */
+@media screen and (max-width: 1200px) and (min-width: 601px) {
   .figmaland__navbar {
     /* background-color: chartreuse; */
     overflow-x: hidden;
@@ -88,7 +118,7 @@
   .figmaland__navbar-logo {
     /* background-color: cornflowerblue; */
     /* width: 30vw; */
-    width: 45vmin;
+    width: 30vmin;
   }
   .figmaland__navbar-button {
     /* width: auto; */
@@ -96,19 +126,14 @@
     /* background-color: chocolate; */
   }
   .figmaland__navbar-menu {
-    display: block;
-  }
-  .figmaland__navbar-menu__show {
-    color: white;
-    background-color: aqua;
-    width: 20vw;
-    position: absolute;
-
-    top: 40%;
-    right: 15%;
-    /* z-index: 2; */
-  }
-  .figmaland__navbar-links {
     display: none;
+  }
+
+  .figmaland__navbar-links {
+    display: block;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    color: white;
   }
 }

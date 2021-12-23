@@ -7,7 +7,7 @@
   justify-content: space-between;
   align-items: center;
   max-width: 100vw;
-  height: 100vh;
+  height: 600px;
   /* background-color: chocolate; */
 }
 .figmaland__feature-top {
@@ -17,7 +17,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  height: 20vh;
+  height: 100px;
   /* background-color: chartreuse; */
 }
 .figmaland__feature-top__heading {
@@ -25,7 +25,7 @@
   font-style: normal;
   font-weight: normal;
 
-  font-size: 30px;
+  font-size: 1.7rem;
   line-height: 2px;
 
   /* identical to box height, or 119% */
@@ -38,8 +38,8 @@
   width: 55%;
   font-style: normal;
   font-weight: normal;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 1rem;
+  line-height: 1.3rem;
 
   /* or 150% */
   text-align: center;
@@ -52,17 +52,19 @@
   flex-direction: row;
   justify-content: space-between;
   width: 60%;
+  /* background-color: chartreuse; */
   /* background-color: crimson; */
   padding-bottom: 2.5rem;
-  height: 65vh;
+  height: 300px;
 }
 .figmaland__feature-bottom__image {
   position: relative;
   background-image: url("../../Assests/ChatBot.png");
   background-size: contain;
+  background-repeat: no-repeat;
   z-index: 1;
   width: 80vmin;
-  background-color: cyan;
+  /* background-color: cyan; */
 }
 .figmaland__feature-bottom__sidecard {
   color: white;
@@ -73,6 +75,7 @@
   /* background-color:   cornflowerblue ; */
   text-align: center;
   width: 40vmin;
+  height: 350px;
 }
 .figmaland__feature-bottom__image div {
   width: 40vmin;
@@ -86,7 +89,7 @@
   height: 100%;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
   .figmaland__feature {
     display: flex;
     flex-direction: column;
@@ -121,17 +124,19 @@
     color: #ffffff;
   }
   .figmaland__feature-bottom {
-    width: 70%;
+    width: 80%;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* align-items: center; */
+    align-items: center;
     /* background-color: coral; */
   }
   .figmaland__feature-bottom__image {
     /* z-index: 1; */
     width: 70vmin;
-    height: 40vmin;
+    height: 80vmin;
+    /* background-color: chartreuse; */
   }
   .figmaland__feature-bottom__image div {
     width: 40vmin;
@@ -149,45 +154,12 @@
     /* background-color: crimson; */
   }
 }
-@media screen and (max-width: 900px) and (min-width: 451px) {
-  .figmaland__feature {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    max-width: 100vw;
-    height: 100vh;
-    /* margin-top: 20rem; */
-    background-color: chocolate;
-  }
-  .figmaland__feature-top {
-    padding-top: 1rem;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 20vh;
-    /* background-color: chartreuse; */
-  }
-  .figmaland__feature-top__heading {
-    font-size: 25px;
-    line-height: 10px;
-    letter-spacing: 0.2px;
-    color: #ffffff;
-  }
-  .figmaland__feature-top__content {
-    width: 70%;
-    font-size: 15px;
-    line-height: 20px;
-    text-align: center;
-    letter-spacing: 0.2px;
-    color: #ffffff;
-  }
+@media screen and (max-width: 1200px) and (min-width: 601px) {
   .figmaland__feature-bottom {
-    width: 70%;
+    width: 80vmin;
+    /* height: 100vh; */
     display: flex;
-    flex-direction: column;
+    /* flex-direction: row; */
     justify-content: space-between;
     /* align-items: center; */
     /* background-color: coral; */
@@ -198,18 +170,19 @@
     height: 40vmin;
   }
   .figmaland__feature-bottom__image div {
-    width: 40vmin;
-    height: 30vmin;
+    width: 20vmin;
+    height: 20vmin;
   }
   .figmaland__feature-bottom__sidecard {
-    margin-top: 4rem;
+    height: fit-content;
+    /* margin-top: 4rem; */
     color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: 100%;
+    /* align-items: center; */
+    /* text-align: center; */
+    width: 50%;
     /* background-color: crimson; */
   }
 }
