@@ -1,6 +1,7 @@
 import React from "react";
 import "./pattern.css";
 import Brands from "../Brands/Brands";
+import Button from "../Button/Button";
 import img from "../../Assests/apple-app-store.svg";
 import img2 from "../../Assests/apiary.svg";
 import img3 from "../../Assests/android.svg";
@@ -42,6 +43,9 @@ const Pattern = () => {
         {images.map((data) => {
           return <Brands icon={data.image} />;
         })}
+      </div>
+      <div className="figmaland__pattern-button">
+        <Button content="All Partners" />
       </div>
     </div>
   );

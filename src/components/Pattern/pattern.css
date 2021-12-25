@@ -1,5 +1,83 @@
 .figmaland__pattern {
   height: 400px;
   width: 100vw;
+  /* background-color: chartreuse; */
   color: chartreuse;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.figmaland__pattern-top {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  /* background-color: chocolate; */
+}
+.figmaland__pattern-top__heading {
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.7rem;
+  /* line-height: 3px; */
+
+  /* identical to box height, or 119% */
+  letter-spacing: 0.2px;
+
+  /* light text */
+  color: #ffffff;
+}
+.figmaland__pattern-top__content {
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.3rem;
+
+  /* or 150% */
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  /* light text */
+  color: #ffffff;
+}
+.figmaland__pattern-bottom {
+  width: 70%;
+  /* background-color: chocolate; */
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+@media screen and (max-width: 600px) {
+  .figmaland__pattern {
+    /* height: 400px; */
+    width: 100vw;
+    /* background-color: chartreuse; */
+    /* color: chartreuse; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .figmaland__pattern-top {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    /* background-color: chocolate; */
+  }
+
+  .figmaland__pattern-bottom {
+    width: 90%;
+    /* background-color: chocolate; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
 }
