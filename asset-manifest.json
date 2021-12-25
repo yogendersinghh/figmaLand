@@ -1,21 +1,27 @@
 {
   "files": {
-    "main.css": "/figmaLand/static/css/main.0786efec.css",
-    "main.js": "/figmaLand/static/js/main.3ca91afd.js",
+    "main.css": "/figmaLand/static/css/main.117fb0dc.css",
+    "main.js": "/figmaLand/static/js/main.49342449.js",
     "static/media/ChatBot.png": "/figmaLand/static/media/ChatBot.e07525befa290d9b9788.png",
     "static/media/Boards.png": "/figmaLand/static/media/Boards.b350ecf74ed259a069a0.png",
     "static/media/Dashboard.png": "/figmaLand/static/media/Dashboard.472a43e6a99ebfa007f0.png",
     "static/media/cardImage.png": "/figmaLand/static/media/cardImage.7b4f108a8292a2c17d4b.png",
     "static/media/chart.png": "/figmaLand/static/media/chart.1adae933b3da4ff68699.png",
+    "static/media/android.svg": "/figmaLand/static/media/android.6aa6169490c2534b10dd8ac1192566ec.svg",
+    "static/media/airbnb.svg": "/figmaLand/static/media/airbnb.576898553396c2c4cbe6ce34750a553b.svg",
+    "static/media/ibm.svg": "/figmaLand/static/media/ibm.1b078de57c867380cb622efb23014f37.svg",
+    "static/media/apple-app-store.svg": "/figmaLand/static/media/apple-app-store.371493ed989316985ada1c6e4d4820df.svg",
+    "static/media/apiary.svg": "/figmaLand/static/media/apiary.c0467752d8042eb141d81f6138dd2895.svg",
+    "static/media/basecamp.svg": "/figmaLand/static/media/basecamp.b37acb55e3e6f78922d0c0a0d51d148d.svg",
     "static/media/Vector.svg": "/figmaLand/static/media/Vector.aa11bd460f52b668ebc7d6a9c18b064b.svg",
     "static/media/Vector2.svg": "/figmaLand/static/media/Vector2.8dccd742881a5605729e8d92be98ec88.svg",
     "static/media/Vector1.svg": "/figmaLand/static/media/Vector1.817ec3e1af55ce39ef7dee20db3faffc.svg",
     "index.html": "/figmaLand/index.html",
-    "main.0786efec.css.map": "/figmaLand/static/css/main.0786efec.css.map",
-    "main.3ca91afd.js.map": "/figmaLand/static/js/main.3ca91afd.js.map"
+    "main.117fb0dc.css.map": "/figmaLand/static/css/main.117fb0dc.css.map",
+    "main.49342449.js.map": "/figmaLand/static/js/main.49342449.js.map"
   },
   "entrypoints": [
-    "static/css/main.0786efec.css",
-    "static/js/main.3ca91afd.js"
+    "static/css/main.117fb0dc.css",
+    "static/js/main.49342449.js"
   ]
 }
