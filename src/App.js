@@ -4,6 +4,7 @@ import Features from "./components/Features/Features";
 import Navabr from "./components/Navbar/Navabr";
 import Status from "./components/Status/Status";
 import Content from "./components/Content/Content";
+import Pattern from "./components/Pattern/Pattern";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Status />
         <Features />
         <Content />
+        <Pattern />
       </div>
     </>
   );
