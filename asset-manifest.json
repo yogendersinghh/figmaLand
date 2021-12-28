@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/figmaLand/static/css/main.e38c1628.css",
+    "main.css": "/figmaLand/static/css/main.7b41c6fc.css",
     "main.js": "/figmaLand/static/js/main.056c11a4.js",
     "static/media/ChatBot.png": "/figmaLand/static/media/ChatBot.e07525befa290d9b9788.png",
     "static/media/Boards.png": "/figmaLand/static/media/Boards.b350ecf74ed259a069a0.png",
@@ -17,11 +17,11 @@
     "static/media/Vector2.svg": "/figmaLand/static/media/Vector2.8dccd742881a5605729e8d92be98ec88.svg",
     "static/media/Vector1.svg": "/figmaLand/static/media/Vector1.817ec3e1af55ce39ef7dee20db3faffc.svg",
     "index.html": "/figmaLand/index.html",
-    "main.e38c1628.css.map": "/figmaLand/static/css/main.e38c1628.css.map",
+    "main.7b41c6fc.css.map": "/figmaLand/static/css/main.7b41c6fc.css.map",
     "main.056c11a4.js.map": "/figmaLand/static/js/main.056c11a4.js.map"
   },
   "entrypoints": [
-    "static/css/main.e38c1628.css",
+    "static/css/main.7b41c6fc.css",
     "static/js/main.056c11a4.js"
   ]
 }
