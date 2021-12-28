@@ -6,6 +6,7 @@ import Status from "./components/Status/Status";
 import Content from "./components/Content/Content";
 import Pattern from "./components/Pattern/Pattern";
 import Testimonial from "./components/Testimonial/Testimonial";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Content />
         <Pattern />
         <Testimonial />
+        <Footer />
       </div>
     </>
   );

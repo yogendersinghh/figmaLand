@@ -30,7 +30,7 @@ const Tesimonial = () => {
   ];
   return (
     <div className="figmaland__testimonial-main">
-      <div className="figmaland__testimonial-top">Testimonails</div>
+      <div className="figmaland__testimonial-top">Testimonials</div>
       <div className="figmaland__testimonial-bottom">
         {datas.map((data) => {
           return <Card name={data.name} content={data.content} />;

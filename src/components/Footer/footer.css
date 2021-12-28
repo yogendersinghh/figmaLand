@@ -1,0 +1,109 @@
+.figmaland__footer {
+  display: flex;
+  /* background-color: chartreuse; */
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 400px;
+}
+.figmaland__footer-one {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  width: 10vw;
+  /* background-color: aqua; */
+}
+.figmaland__footer-heading {
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 4rem;
+
+  /* identical to box height, or 150% */
+  letter-spacing: 0.1px;
+
+  /* light text */
+  color: #ffffff;
+}
+.figmaland__footer-content {
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 2rem;
+
+  /* identical to box height, or 150% */
+  letter-spacing: 0.2px;
+
+  /* light text */
+  color: #ffffff;
+}
+.figmaland__footer-four {
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  /* height: 300px; */
+  /* background-color: aqua; */
+}
+.figmaland__footer-mapimage {
+  background-image: url("../../Assests/map.png");
+  /* background-size: contain; */
+}
+.figmaland__footer-phoneimage {
+  background-image: url("../../Assests/phone.png");
+}
+.figmaland__footer-facebook {
+  background-image: url("../../Assests/facebook.png");
+}
+.figmaland__footer-twitter {
+  background-image: url("../../Assests/twitter.png");
+}
+.figmaland__footer-linkedin {
+  background-image: url("../../Assests/linkedin.png");
+}
+.same {
+  width: 40px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.figmaland__footer-address {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 22vw;
+}
+.figmaland__footer-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 12vw;
+}
+.figmaland__footer-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 15vw;
+}
+@media screen and (max-width: 600px) {
+  .figmaland__footer {
+    flex-direction: column;
+    height: 800px;
+    margin-left: 5rem;
+    align-items: flex-start;
+  }
+  /* .figmaland__footer-four {
+    width: 100vw;
+  } */
+  .figmaland__footer-address {
+    width: 55vw;
+  }
+  .figmaland__footer-contact {
+    width: 30vw;
+  }
+  .figmaland__footer-icons {
+    width: 40vw;
+  }
+}
