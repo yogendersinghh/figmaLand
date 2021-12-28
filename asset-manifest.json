@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/figmaLand/static/css/main.49ce2d89.css",
-    "main.js": "/figmaLand/static/js/main.056c11a4.js",
+    "main.css": "/figmaLand/static/css/main.38ee5f0f.css",
+    "main.js": "/figmaLand/static/js/main.9ba45b74.js",
     "static/media/ChatBot.png": "/figmaLand/static/media/ChatBot.e07525befa290d9b9788.png",
     "static/media/Boards.png": "/figmaLand/static/media/Boards.b350ecf74ed259a069a0.png",
     "static/media/Dashboard.png": "/figmaLand/static/media/Dashboard.472a43e6a99ebfa007f0.png",
@@ -17,11 +17,11 @@
     "static/media/Vector2.svg": "/figmaLand/static/media/Vector2.8dccd742881a5605729e8d92be98ec88.svg",
     "static/media/Vector1.svg": "/figmaLand/static/media/Vector1.817ec3e1af55ce39ef7dee20db3faffc.svg",
     "index.html": "/figmaLand/index.html",
-    "main.49ce2d89.css.map": "/figmaLand/static/css/main.49ce2d89.css.map",
-    "main.056c11a4.js.map": "/figmaLand/static/js/main.056c11a4.js.map"
+    "main.38ee5f0f.css.map": "/figmaLand/static/css/main.38ee5f0f.css.map",
+    "main.9ba45b74.js.map": "/figmaLand/static/js/main.9ba45b74.js.map"
   },
   "entrypoints": [
-    "static/css/main.49ce2d89.css",
-    "static/js/main.056c11a4.js"
+    "static/css/main.38ee5f0f.css",
+    "static/js/main.9ba45b74.js"
   ]
 }
