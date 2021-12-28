@@ -100,7 +100,7 @@
 @media screen and (max-width: 600px) {
   .figmaland__testimonial-main {
     width: 100vw;
-    height: 1301px;
+    height: 1300px;
     /* justify-content: none; */
   }
   .figmaland__testimonial-bottom {
@@ -114,5 +114,52 @@
     align-items: center;
     text-align: justify;
     background-color: crimson;
+  }
+}
+@media screen and (max-width: 1000px) and (min-width: 601px) {
+  .figmaland__testimonial-main {
+    width: 100vw;
+    height: 1300px;
+    justify-content: space-evenly;
+  }
+  .figmaland__testimonial-bottom {
+    height: 1100px;
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    /* background: red; */
+  }
+  .figmaland__testimonial-card {
+    width: 30vw;
+    height: 25vh;
+    margin-bottom: 1rem;
+    align-items: center;
+    justify-content: none;
+    text-align: justify;
+    /* background-color: crimson; */
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1000px) {
+  .figmaland__testimonial-main {
+    width: 100vw;
+    height: auto;
+    justify-content: space-evenly;
+  }
+  .figmaland__testimonial-bottom {
+    height: 60vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    /* background: red; */
+  }
+  .figmaland__testimonial-card {
+    width: auto;
+    /* height: fit-content; */
+    margin-bottom: 1rem;
+    align-items: center;
+    justify-content: none;
+    text-align: justify;
+    /* background-color: crimson; */
   }
 }
