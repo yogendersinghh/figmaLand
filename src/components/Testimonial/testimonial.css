@@ -110,7 +110,8 @@
   .figmaland__testimonial-card {
     width: 100vw;
     height: 25vh;
-    margin-bottom: -2rem;
+    overflow: hidden;
+    margin-bottom: 1rem;
     align-items: center;
     text-align: justify;
     /* background-color: crimson; */

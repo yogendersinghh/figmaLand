@@ -8,6 +8,7 @@ body {
   overflow-x: hidden;
   position: relative;
   z-index: -1;
+  user-select: none;
 }
 
 code {
