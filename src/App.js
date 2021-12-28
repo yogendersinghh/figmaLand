@@ -5,6 +5,7 @@ import Navabr from "./components/Navbar/Navabr";
 import Status from "./components/Status/Status";
 import Content from "./components/Content/Content";
 import Pattern from "./components/Pattern/Pattern";
+import Testimonial from "./components/Testimonial/Testimonial";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Features />
         <Content />
         <Pattern />
+        <Testimonial />
       </div>
     </>
   );

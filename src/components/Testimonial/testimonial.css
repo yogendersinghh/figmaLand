@@ -1,0 +1,118 @@
+.figmaland__testimonial-main {
+  height: 600px;
+  width: 100vw;
+  /* background-color: #99aa87; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* color: ; */
+  align-items: center;
+  /* align-items: center; */
+  text-align: center;
+}
+.figmaland__testimonial-top {
+  height: 100px;
+  width: 100vw;
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* identical to box height, or 119% */
+  letter-spacing: 0.2px;
+
+  /* light text */
+  color: #ffffff;
+  /* background-color: chocolate; */
+}
+.figmaland__testimonial-bottom {
+  height: 490px;
+  width: 40vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* place-items: right; */
+  /* align-items: center; */
+  /* background-color: cornflowerblue; */
+}
+.figmaland__testimonial-card {
+  height: fit-content;
+  width: auto;
+  border: 1px solid #dedede;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  /* padding: auto; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  padding: 20px;
+  /* align-items: center; */
+  text-align: left;
+  /* flex-flow: row; */
+  /* background-color: crimson; */
+}
+.figmaland__testimonial-card__top {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  /* width: 60px; */
+}
+.figmaland__testimonial-card__image {
+  background-image: url("../../Assests/avatar.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+}
+.figmaland__testimonial-card__name {
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 1rem;
+
+  /* identical to box height, or 150% */
+  letter-spacing: 0.1px;
+
+  /* light text */
+  color: #ffffff;
+}
+.figmaland__testimonial-card__bottom {
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  width: 200px;
+  /* or 150% */
+  letter-spacing: 0.2px;
+
+  /* light text */
+  color: #ffffff;
+}
+
+@media screen and (max-width: 600px) {
+  .figmaland__testimonial-main {
+    width: 100vw;
+    height: 1300px;
+    /* justify-content: none; */
+  }
+  .figmaland__testimonial-bottom {
+    height: 1200px;
+    width: 60vw;
+  }
+  .figmaland__testimonial-card {
+    width: 100vw;
+    height: 25vh;
+    margin-bottom: -2rem;
+    align-items: center;
+    text-align: justify;
+    background-color: crimson;
+  }
+}
